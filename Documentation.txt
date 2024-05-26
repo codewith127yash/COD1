@@ -1,0 +1,29 @@
+    HTML
+    <head>: Contains metadata and links to the CSS file.
+    <body>: Contains the main structure of the to-do list, including input for new tasks, buttons for adding 
+    tasks and clearing all tasks, and the list where tasks are displayed. 
+   
+    CSS
+    General Styling: Basic styling for the body, headings, and input fields.
+    Transitions and Animations: Smooth transitions for hovering over buttons and list items, animations for adding and removing tasks.
+    Dark Mode: Support for dark mode using media queries.
+
+    JavaScript
+    Event Listeners: Set up listeners for adding tasks, editing tasks, and clearing all tasks.
+    Task Management Functions: Load tasks from local storage, save tasks to local storage, add tasks to the DOM, and edit tasks.
+    Animations: Apply fade-in and fade-out animations when tasks are added or removed.
+
+    Usage
+    Add a Task: Enter a task in the input field and click "Add Task".
+    Mark as Completed: Click the checkbox next to a task to mark it as completed.
+    Edit a Task: Click the "Edit" button next to a task to edit its text.
+    Delete a Task: Click the "Delete" button next to a task to remove it.
+    Clear All Tasks: Click the "Clear All" button to remove all tasks.
+    
+    Future Enhancements
+
+    Due Dates: Add the ability to assign due dates to tasks.
+    Categories: Allow users to categorize tasks.
+    Notifications: Implement notifications for upcoming or overdue tasks.
+    Subtasks: Add support for subtasks within a main task.
+    Drag and Drop: Implement drag and drop to reorder tasks.
